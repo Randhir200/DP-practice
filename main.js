@@ -1,6 +1,7 @@
 //WAP to get power of 2
 
 function solve(){
+    //memoaization
     let cache = {};
     return function(n){
         if(n in cache){
